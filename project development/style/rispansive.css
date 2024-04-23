@@ -1,0 +1,184 @@
+@media (max-width : 992px){
+
+    .header::before,.course-Benefits::before ,.comment::after {
+        content: none;
+    }
+    .shepa-header-home-1{
+        display: none;
+    }
+
+
+}
+
+
+@media (min-width : 576px){
+    .cours-header-content-title{
+
+        width: 50%;
+    }
+}
+
+@media (min-width : 768px){
+    
+    
+
+.header-content__img{
+    flex-basis: 70%;
+}
+.header-content-discription{
+flex-basis: 30%;
+}
+.footer-werraper{
+    flex-direction: row;
+}
+.comment::after{
+    content: " ";
+}
+.blog-fillter{
+    flex-wrap: nowrap;
+}
+.blog-fillter-weraper{
+    flex-basis: 30%;
+}
+.blog-fillter-search{
+    flex-basis: 40%;
+}
+.blog-fillter-search__input,.blog-fillter-select{
+    font-size: 1.6rem;
+}
+.single-post-User-response__icon{
+    display: block;
+}
+.brodcramp-information {
+    flex-direction: row;
+}
+.single-product-comment-form-item__check{
+    width: 40%;
+}
+.comment-information {
+    flex-direction: row;
+    justify-content: start;
+}
+.comment-information__name{
+    text-align: start;
+}
+
+}
+@media (min-width : 992px){
+    .toggel-menu {
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .header-content{
+        flex-direction: row-reverse;
+        
+    }
+    .header-contact{
+        display: flex;
+    }
+    .nav{
+        width: auto;
+    }
+    .Counseling-home-werraper {
+        flex-direction: row;
+        gap: 20rem;
+    }
+    .about-home-werraper{
+        flex-direction: row-reverse;
+    }
+    .cours-header-content-caption{
+        flex-direction: row;
+    }
+    .cours-header-content-title{
+        justify-content: start;
+        margin: 0;
+    }
+    .cours-box-Capacity{
+        max-width: 0;
+    }
+    .contact-us-werraper-informaition{
+        flex-direction: row-reverse;
+    }
+    .contact-us-informaition{
+        flex-basis: 35%;
+
+    }
+    .contact-us-map{
+        flex-basis: 65%;
+        height: 30rem;
+    }
+    .contact-us-map iframe{
+        height: 100%;
+    }
+    .contact-us-comment-form-item__input{
+        width: 30%;
+    }
+    .title-page{
+        text-align: start;
+
+    }
+    .brodcramp-content{
+        text-align: start;
+    }
+    .about-us-content-discription{
+     width:50% ;   
+    }
+    .about-us-content__img{
+        width: 50%;
+    }
+    .about-us-content{
+        flex-direction: row-reverse;
+    }
+    .nav-mobail{
+        display: none;
+    }
+    .brodcramp-information-box-price,.brodcramp-information-box-date{
+        width: auto;
+    }
+    .brodcramp-information-box-time{
+        width: auto;
+    }
+    .single-product-comment-form-item__input{
+        width: 40%;
+    }
+    .Counseling-product-werraper,.Counseling-home-links {
+        flex-direction: row;
+    }
+    .single-post-comment-form-item__input  {
+        width: 30%;
+    }
+    .header-content__caption{
+        max-width: 50rem;
+    }
+    
+}
+@media (min-width : 1200px){
+    .header-content__links{
+        margin-top: 25rem;
+    }
+    .mega > ul{
+        height: 100rem;
+    }
+    .mega >ul >li .mega-submenu {
+        width: 90rem;
+    }
+     
+}
+@media (min-width : 1400px ){
+    
+}
+
+
+
+    
+    
+
+
+        
+
+
+
+
+        

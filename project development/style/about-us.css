@@ -1,0 +1,72 @@
+:root {
+
+    --color-peraimery: #458FF6;
+    --color-secend: #FFCB00;
+    --text-color: #666666;
+    --font-regular: "IRansans Regular";
+    --font-medium: "IRansans Medium";
+    --font-bold: "IRansans Bold";
+
+
+}
+.header{
+    background-color: #fff;
+    z-index: 10;
+}
+.header::before{
+    content: none;
+}
+.shepa-header-home-1{
+    display: none;
+}
+
+.course-Benefits-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.course-Benefits-link__link {
+    background-color: transparent;
+    color: var(--color-peraimery);
+    border: 2px dashed var(--color-peraimery);
+}
+.about-home-vedio{
+    flex-basis: 100%;
+    height: 50rem;
+}
+
+
+
+.about-us {
+    margin-top: 10rem;
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.about-us-content__img {
+    width: 100%;
+}
+.about-us-content__img img {
+    width: 100%;
+}
+.about-us-content-discription {
+    width: 100%;
+}
+.about-us-content__caption {
+}
+.about-us-content__links {
+    margin-top: 5rem;
+}
+.about-us-content__link {
+    width: 60%;
+    margin: 0 auto;
+    
+}
+

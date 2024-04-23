@@ -1,0 +1,227 @@
+:root {
+
+    --color-peraimery: #458FF6;
+    --color-secend: #FFCB00;
+    --text-color: #666666;
+    --font-regular: "IRansans Regular";
+    --font-medium: "IRansans Medium";
+    --font-bold: "IRansans Bold";
+
+
+}
+.header{
+    background-color: #fff;
+    z-index: 10;
+}
+.header::before{
+    content: none;
+}
+.shepa-header-home-1{
+    display: none;
+}
+
+.blog {
+    margin-top: 5rem;
+}
+.blog-fillter {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+}
+.blog-fillter-weraper{
+    flex-basis: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 4px 0 #00000040;
+    border-right: 4px solid var(--color-peraimery);
+    padding: 1rem;
+    position: relative;
+    
+
+
+}
+.blog-fillter-select {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    appearance: none;
+    position: relative;
+    font-size: 1rem;
+    color: #929292;
+    font-family: var(--font-medium);
+    padding-right: 1rem;
+    
+
+   
+   
+}
+
+.blog-fillter-select__option {
+    
+}
+.select-arrow {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1rem;
+    pointer-events: none;
+    
+
+}
+
+.select-arrow svg {
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+.blog-fillter-search {
+    flex-basis: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 4px 0 #00000040;
+    border-right: 4px solid var(--color-peraimery);
+    padding: 1rem;
+}
+.blog-fillter-search__btn{
+    width: 2rem;
+    height: 2rem;
+    
+}
+.blog-fillter-search__input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color: #929292;
+    font-family: var(--font-medium);
+}
+
+.blog-archive{
+    margin-top: 5rem;
+}
+.blog-box {
+    box-shadow: 0 0px 4px 0 #00000040;
+    border-radius: 1rem;
+    border-bottom: 4px solid var(--color-peraimery);
+}
+
+.blog-box__img {
+    width: 100%;
+    height: 20rem;
+}
+
+.blog-box__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.blog-box-content {
+    padding: 1rem;
+}
+
+.blog-box-content-link {}
+
+.blog-box-content__title {
+    display: block;
+    font-size: 1.6rem;
+    color: var(--color-peraimery);
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: var(--font-bold);
+}
+
+.blog-box-content-Information {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.blog-box-content__details {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+.blog-box-content-Information__time {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: start;
+    flex-direction: row-reverse;
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+
+
+.blog-navigation {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+
+}
+.blog-navigation-prev {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-secend);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-navigation-number {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-secend);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.blog-navigation-prev  svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.blog-navigation-number svg{
+    width: 2rem;
+    height: 2rem;
+}
+.blog-navigation-next {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-secend);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-navigation-next svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
